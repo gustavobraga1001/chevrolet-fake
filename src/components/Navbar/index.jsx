@@ -15,7 +15,7 @@ const Navbar = () => {
 
         <div className="Nav2">
           <ul>
-            <li><img src="/images/pesquisa.png"/>Busca</li>
+            <li><img src="/images/pesquisa.png"/>Busca <p>▼</p></li>
             <li><img src="/images/ferramenta.png"/>Concessionárias</li>
           </ul>
         </div>
