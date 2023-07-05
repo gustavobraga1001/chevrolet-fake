@@ -1,0 +1,28 @@
+.saberMais {
+    height: 80px;
+    border-bottom: 1px solid #e1d4d4;;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 60px;
+}
+
+
+
+.saberMais p {
+    text-align: right;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.saberMais p:hover {
+    color: rgb(215, 204, 58);
+}
+
+.saberMais img {
+    height: 40px;
+    width: 40px;
+    margin-right: 90px;
+}
+

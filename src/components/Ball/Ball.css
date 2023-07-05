@@ -1,0 +1,18 @@
+.Ball {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+}
+
+.Ball img {
+    width: 150px;
+    height: 150px;
+}
+
+.Ball p {
+    color:  #656262;
+    font-size: 18px;
+    text-transform: uppercase; 
+}
