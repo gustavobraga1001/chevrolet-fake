@@ -6,6 +6,7 @@ import Beneficios from './components/Beneficios';
 import SaberMais from './components/SaberMais';
 import Onstar from './components/OnStar';
 import Mosaico from './components/Mosaico';
+import Rodape from './components/Rodape';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <SaberMais />
       <Onstar />
       <Mosaico />
+      <Rodape />
     </>
   );
 }
