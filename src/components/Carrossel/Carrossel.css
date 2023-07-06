@@ -1,12 +1,13 @@
 img {
     width: 100vw;
+    cursor: pointer;
 }
 
 .picture {
     height: 69vh;
     background-repeat: no-repeat;
     background-size: cover;
-
+    cursor: pointer;
 }
 
 .infos {
@@ -43,6 +44,10 @@ img {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.infos .button:hover {
+    border: 3.5px solid #cd9834;
 }
 
 .infos img {

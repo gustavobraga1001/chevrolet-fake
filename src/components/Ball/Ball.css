@@ -4,6 +4,7 @@
     align-items: center; 
     justify-content: center; 
     flex-direction: column; 
+    cursor: pointer;
 }
 
 .Ball img {
@@ -15,4 +16,8 @@
     color:  #656262;
     font-size: 18px;
     text-transform: uppercase; 
+}
+
+.Ball p:hover {
+    color: #cd9834;
 }
