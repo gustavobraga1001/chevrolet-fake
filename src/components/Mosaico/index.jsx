@@ -22,7 +22,7 @@ const Mosaico = () => {
 
     return (
         <div className='Mosaico'>
-            {cards.map(card => <Card img={card.img} title={card.title} description={card.description}/>)}
+            {cards.map(card => <Card key={card.title} img={card.img} title={card.title} description={card.description}/>)}
         </div>
         
     )

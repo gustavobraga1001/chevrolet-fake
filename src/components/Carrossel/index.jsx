@@ -29,7 +29,7 @@ const Carrossel = (props) => {
             loop
         >
            {props.imagens.map(img => img.infos === true ? 
-           <SwiperSlide key={img}>
+           <SwiperSlide key={img.src}>
               <div className='picture' style={{ backgroundImage: `url(${img.src})` }}>
                 <div className='infos'>
                   <h1>{img.h1}</h1>
