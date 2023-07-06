@@ -1,10 +1,10 @@
 import './SaberMais.css'
 
-const SaberMais = () => {
+const SaberMais = (props) => {
     return (
         <div className='saberMais'>
-            <p>Saber mais</p>
-            <img src='/images/arrow.svg'/>
+            <p>{props.text}</p>
+            {props.src ? <img src={props.src}/> : ""}
         </div>
     )
 }

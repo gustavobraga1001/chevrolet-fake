@@ -1,0 +1,33 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 27vw;
+    gap: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 65px;
+    cursor: pointer;
+    /* margin: 0; */
+}
+
+.Card:hover {
+    border-bottom: 4px solid #cd9834;
+}
+.Card p, h2, img {
+    margin: 0;
+}
+
+.Card h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.Card p {
+    border-top: 1px solid rgba(179, 176, 176, 0.63);
+    color: #6e6e6e;
+    padding-top: 2px;
+}
+
+.Card img{
+    width: 27vw;
+}

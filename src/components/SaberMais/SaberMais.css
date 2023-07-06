@@ -14,10 +14,11 @@
     margin-right: 10px;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .saberMais p:hover {
-    color: rgb(215, 204, 58);
+    color: #cd9834;
 }
 
 .saberMais img {

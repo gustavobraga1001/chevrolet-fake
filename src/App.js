@@ -3,8 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Carrossel from './components/Carrossel';
 import Beneficios from './components/Beneficios';
-import Ball from './components/Ball';
 import SaberMais from './components/SaberMais';
+import Onstar from './components/OnStar';
+import Mosaico from './components/Mosaico';
 
 
 function App() {
@@ -19,13 +20,16 @@ function App() {
         {src:'/images/picture3.webp', infos:true, h1: "Silverado", p: "Pense (muito) grande: Nada domina a força de uma lenda.", button: false} 
         ]} 
       />
-      <SaberMais />
+      <SaberMais text="Saber mais" src="/images/arrow.svg"/>
       <Beneficios />
       <Carrossel imagens={[
         {src:'/images/banner-desk.webp', infos:false}, 
         {src:'/images/tracker.webp', infos:true, button: true,  h1:"Seu tracker 0 km a um clique de distância.", p:"Assuma a direção do SUV que não para de evoluir e descubra novos caminhos...", b:"Consulte nosso estoque", icon:'/images/estoque.svg'}
         ]}
       />
+      <SaberMais />
+      <Onstar />
+      <Mosaico />
     </>
   );
 }
