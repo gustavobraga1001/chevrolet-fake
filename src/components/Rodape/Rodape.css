@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-around;
     padding-right: 10vw;
+
+    padding-bottom: 100px;
+
 }
 
 .Rodape h3 {
@@ -16,11 +19,24 @@
 .Rodape ul {
     list-style: none;
     padding: 0;
+    width: 10vw;
 }
 
 .Rodape li {
     margin-bottom: 20px; 
-    font-size: 14px;    
+    font-size: 12px;    
     font-weight: 500;  
     cursor: pointer; 
+}
+
+.Rodape img {
+    width: 30px;
+    height: 30px;
+}
+
+.Redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }

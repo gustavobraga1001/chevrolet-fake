@@ -67,14 +67,14 @@ const Rodape = () => {
                         <li>Mapa do Site</li>
                     </ul>
                     <h3>NOSSAS REDES</h3>
-                    <a href="#"><img src="" /></a>
-                    <a href="#"><img src="" /></a>
-                    <a href="#"><img src="" /></a>
-                    <a href="#"><img src="" /></a>
-                    <a href="#"><img src="" /></a>
+                    <div className='Redes'>
+                        <a href="#"><img src="/images/face.svg" /></a>
+                        <a href="#"><img src="/images/tw.svg" /></a>
+                        <a href="#"><img src="/images/yt.svg" /></a>
+                        <a href="#"><img src="/images/insta.svg" /></a>
+                        <a href="#"><img src="/images/tiktok.svg" /></a>
+                    </div>
                 </div>
-
-                
             </footer>
         </>
     )
